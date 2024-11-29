@@ -1,0 +1,29 @@
+.Child1 {
+    display: flex;
+    margin: 16px;
+  }
+  
+  .legend-item {
+    display: flex;
+    gap: 8px;
+  }
+  
+  #legend {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .legend-item div {
+    width: 20px;
+  }
+  
+  .tooltip {
+    position: absolute;
+    display: none;
+    background: white;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
